@@ -1,4 +1,8 @@
 <h1>Calculator 2023</h1>
+<hr>
+<h2>Use the calculator with the link below</h2>
+<p>https://kyrheavy.github.io/Calculator/</p>
+<hr>
 <p>Below is a brief understanding on the different functions available in this calculator</p>
 <h2>Functions available</h2>
 <hr>
