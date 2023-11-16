@@ -1,6 +1,6 @@
 <h1>Calculator 2023</h1>
 <p>Below is a brief understanding on the different functions available in this calculator</p>
-<h3>Functions available</h3>
+<h2>Functions available</h2>
 <hr>
 <p>using this calculator you are allowed to do 5 different functions</p>
 <h5>1.Turn number into negative or posotive</h5>
