@@ -1,5 +1,5 @@
 <h1>Calculator 2023</h1>
-<h2>Below is a brief understanding on the different functions available in this calculator</h2>
+<p>Below is a brief understanding on the different functions available in this calculator</p>
 <h3>Functions available</h3>
 <hr>
 <p>using this calculator you are allowed to do 5 different functions</p>
