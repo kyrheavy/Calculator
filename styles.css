@@ -30,7 +30,7 @@ body{
     height: 750px;
     background: var(--Dark-color);
     border-radius: 30px;
-    margin: -50px;
+    margin: -100px;
 }
 
 .keypad{
