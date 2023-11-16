@@ -29,7 +29,8 @@ body{
     height: 750px;
     background: var(--Dark-color);
     border-radius: 30px;
-    margin: -100px;
+    margin: -120px;
+    scale: 75%;
 }
 
 .keypad{
