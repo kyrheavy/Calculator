@@ -1,0 +1,95 @@
+:root{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    --Light-color: #F1FAEE;
+    --Dark-color: #1D3557;
+    --Highlight-color: #E63946;
+    --Mid-Dark-color: #457B9D;
+    --Mid-Light-color: #A8DADC;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #A8DADC;
+    margin: 0;
+    padding: 70px 0 0 0;
+    color: var(--Light-color);
+    text-shadow: 1px 1px 3px var(--Highlight-color);
+}
+
+.calculator{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 750px;
+    background: var(--Dark-color);
+    border-radius: 30px;
+}
+
+.keypad{
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.calDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:125px;
+    width: 500px;
+    background: var(--Mid-Dark-color);
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    border: 15px solid var(--Mid-Dark-color);
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+.calprevious{
+    height:41px;
+    width: 380px;
+    text-align: right;
+    font-size: 30px;
+    justify-content: center;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.calCurrent{
+    height:75px;
+    width: 450px;
+    text-align: right;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.span-2{
+    width: 215px;   
+}
+
+button{
+    background-color: var(--Light-color);
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: var(--Highlight-color);
+    box-shadow: 1px 1px 3px var(--Light-color);
+    color: var(--Mid-Light-color);
+    transition: 0.5s;
+}
